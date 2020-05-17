@@ -1,0 +1,105 @@
+#aideMenu
+{
+    margin: 15px 0px;
+    text-align: center;
+    z-index: 100;
+    position: relative;
+}
+#aideMenu nav
+{
+    background-color: rgb(226, 126, 126);
+    display: inline-block;
+    padding: 0px;
+}
+#aideMenu ul
+{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    background-color: rgb(226, 126, 126);
+}
+#aideMenu li
+{
+    display: block;
+}
+#aideMenu li a
+{
+    font-size: 1.3em;
+    color: #6b6b6b;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+#aideMenu li a:hover
+{
+    color: black;
+}
+#aideMenu li:first-child
+{
+    display: block!important;
+}
+.displayBlock
+{
+    display: block!important;
+}
+/*#aideMenu
+{
+    margin: 15px;
+    text-align: center;
+    z-index: 100;
+    position: relative;
+}
+#aideMenu nav
+{
+    background-color: rgb(208, 237, 240);
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#aideMenu ul
+{
+    display: inline-block;
+    margin: 0px;
+    padding: 3px;
+    vertical-align: top;
+    background-color: rgb(208, 237, 240);
+    border-radius: 8px;
+}
+#aideMenu ul:hover
+{
+    -webkit-box-shadow: 0 -1px 3px rgba(0,0,0,0.2) inset,0 0 1px rgba(255,255,255,0.5),0 1px 3px rgba(0,0,0,0.1) inset;
+    -moz-box-shadow: 0 -1px 3px rgba(0,0,0,0.2) inset,0 0 1px rgba(255,255,255,0.5),0 1px 3px rgba(0,0,0,0.1) inset;
+    box-shadow: 0 -1px 3px rgba(0,0,0,0.2) inset,0 0 1px rgba(255,255,255,0.5),0 1px 3px rgba(0,0,0,0.1) inset;
+}
+#aideMenu li
+{
+    display: block;
+}
+#aideMenu li a
+{
+    font-size: 1.3em;
+    color: #6b6b6b;
+    display: block;
+    padding: 4px 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+#aideMenu li a:hover
+{
+    border-radius: 17px;
+    -webkit-box-shadow: 0 -1px 3px rgba(0,0,0,0.2) inset,0 0 1px rgba(255,255,255,0.5),0 1px 3px rgba(0,0,0,0.1) inset;
+    -moz-box-shadow: 0 -1px 3px rgba(0,0,0,0.2) inset,0 0 1px rgba(255,255,255,0.5),0 1px 3px rgba(0,0,0,0.1) inset;
+    box-shadow: 0 -1px 3px rgba(0,0,0,0.2) inset,0 0 1px rgba(255,255,255,0.5),0 1px 3px rgba(0,0,0,0.1) inset;
+    background: rgba(0,0,0,0.05);
+    color: #2b2a2a;
+}
+#aideMenu li:first-child
+{
+    display: block!important;
+}
+.displayBlock
+{
+    display: block!important;
+}*/

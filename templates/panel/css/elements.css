@@ -1,0 +1,95 @@
+[type="checkbox"].checkGliss:not(:checked),
+[type="checkbox"].checkGliss:checked {
+	position: absolute;
+	left: -9999px;
+	display: none;
+}
+[type="checkbox"].checkGliss:not(:checked) + label,
+[type="checkbox"].checkGliss:checked + label {
+	position: relative;
+	padding-left: 75px;
+	cursor: pointer;
+	display: inline-block;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+[type="checkbox"].checkGliss:not(:checked) + label:before,
+[type="checkbox"].checkGliss:checked + label:before,
+[type="checkbox"].checkGliss:not(:checked) + label:after,
+[type="checkbox"].checkGliss:checked + label:after {
+	content: '';
+	position: absolute;
+}
+[type="checkbox"].checkGliss:not(:checked) + label:before,
+[type="checkbox"].checkGliss:checked + label:before {
+	left:0; top: -3px;
+	width: 65px; height: 30px;
+	background: #DDDDDD;
+	border-radius: 15px;
+	-webkit-transition: background-color .2s;
+	-moz-transition: background-color .2s;
+	-ms-transition: background-color .2s;
+	transition: background-color .2s;
+}
+[type="checkbox"].checkGliss:not(:checked) + label:after,
+[type="checkbox"].checkGliss:checked + label:after {
+	width: 20px; height: 20px;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	transition: all .2s;
+	border-radius: 50%;
+	background: #7F8C9A;
+	top: 2px; left: 5px;
+}
+
+/* on checked */
+[type="checkbox"].checkGliss:checked + label:before {
+	background: #3B6736; 
+}
+[type="checkbox"].checkGliss:checked + label:after {
+	background: #48D239;
+	top: 2px; left: 40px;
+}
+
+[type="checkbox"].checkGliss:checked + label .ui,
+[type="checkbox"].checkGliss:not(:checked) + label .ui:before,
+[type="checkbox"].checkGliss:checked + label .ui:after {
+	position: absolute;
+	left: 6px;
+	width: 65px;
+	border-radius: 15px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 22px;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	transition: all .2s;
+}
+[type="checkbox"].checkGliss:not(:checked) + label .ui:before {
+	content: ""; /* avant: no */
+	left: 32px
+}
+[type="checkbox"].checkGliss:checked + label .ui:after {
+	content: ""; /* avant: yes */
+	color: #39D2B4;
+}
+[type="checkbox"].checkGliss:focus + label:before {
+	border: 0px dashed #777;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: -1px;
+}
+
+
+input[type="checkbox"].hideDiv + label + div {
+    display: none;
+}
+input[type="checkbox"].hideDiv:checked + label + div {
+    display: block;
+    padding: 15px 10px;
+    border-left: 2px solid rgb(131, 131, 131);
+}

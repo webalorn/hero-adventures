@@ -1,0 +1,55 @@
+/* alertes */
+
+.greenAlert, .redAlert
+{
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 5px auto;
+    font-size: 90%;
+    color: black;
+}
+.greenAlert
+{
+    background: #C2E2A9;
+}
+.redAlert
+{
+    background: #FFE9E9;
+}
+/* bouttons, input */
+input[type=button], input[type=submit] {
+    border-radius: 0px;
+    background: black;
+    color: white;
+    border-width: 0px;
+    padding: 6px 15px;
+    cursor: pointer;
+    transition: background 0.5s, color 0.5s;
+}
+
+input[type=button]:hover, input[type=submit]:hover {
+    background: white;
+    color: black;
+}
+
+/* autres elements */
+blockquote {
+	font-style: italic;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	padding: 2px 0;
+	border: 0px solid #838383;
+	padding-left: 20px;
+	padding-right: 8px;
+	border-left-width: 3px;
+	margin: 15px;
+}
+
+input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+    border: 2px solid rgb(165, 165, 165);
+    padding: 3px;
+    background: white;
+}
+input, textarea {
+    outline-width: 0px;
+}

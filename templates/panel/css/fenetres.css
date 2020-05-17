@@ -1,0 +1,62 @@
+/*
+    fenetres
+*/
+
+.fenetreEnsemble
+{
+    z-index: 100000;
+}
+.fenetreFond
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    overflow: auto;
+}
+.fenetre
+{
+    border: 2px solid black;
+    border-radius: 12px;
+    background: #F5F5F5;
+    color: #242424;
+    
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    width: 100%;
+    max-width: 1000px;
+}
+.contenuFenetre
+{
+    padding: 15px;
+}
+.fenetreTitre
+{
+    background: #BDBDBD;
+    padding: 8px;
+    color: black;
+    
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 110%;
+    font-weight: bold;
+    text-align: center;
+}
+.fenetreFermerBarre
+{
+    text-align: center;
+}
+
+.textBox /* specifique: boies de dialogue */
+{
+    width: 100%;
+    max-width: 600px;
+}
+.barreBouttonsTextBox
+{
+    text-align: right;
+}

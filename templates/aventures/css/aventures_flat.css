@@ -1,0 +1,153 @@
+#header h3
+{
+	margin-left: 10px;
+    color: rgb(165, 165, 221);
+    margin-bottom: 0px;
+    font-size: 2em;
+}
+#chargementImgBarre
+{
+	text-align: center;
+	padding: 10px;
+}
+
+#contenu {
+    max-width: 800px!important;
+}
+
+.contenuPageAdv
+{
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-left: 2px solid rgb(86, 86, 86);
+	overflow: hidden;
+}
+.suitePageAdv
+{
+	margin-top: 25px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-left: 2px solid rgb(24, 24, 24);
+	text-align: center;
+}
+.suitePageAdv input[type=button]
+{
+	margin: 5px;
+}
+p.paraMort
+{
+	font-style: italic;
+	font-weight: bold;
+	color: red;
+}
+p.paraFin
+{
+	font-style: italic;
+	font-weight: bold;
+	color: green;
+}
+.alreadyTermine
+{
+	text-align:  center;
+	color: green;
+	font-style: italic;
+	padding: 10px;
+}
+.nonConnecteMsg
+{
+	text-align:  center;
+	color: red;
+	padding: 10px;
+	font-weight: bold;
+}
+
+/*
+    fenetres
+*/
+
+.fenetre {
+    display: none;
+    position: fixed;
+    top: 0px; left: 0px;
+    width: 100%; height: 100%;
+    overflow: auto;
+    
+    background: #282D24;
+    color: white;
+    z-index: 100000;
+}
+.fenBarre {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #454545;
+    height: 40px;
+    width: 100%;
+}
+.fenBarre h3 {
+    margin: 0px;
+    margin-left: 15px;
+    display: inline-block;
+    font-size: 25px;
+    line-height: 40px;
+}
+.fenBarre > div {
+    width: 40px;
+    height: 40px;
+    background-image: url("/templates/site/images/croix.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    position: absolute;
+    top: 0px; right: 0px;
+    cursor: pointer;
+}
+.fenCont {
+    max-width: 800px;
+    text-align: justify;
+    margin: auto;
+    padding: 20px 0px;
+    margin-top: 40px;
+}
+
+/*
+    bouttons speciaux
+*/
+#barreBouttons {
+    margin: 15px 0px;
+}
+#barreBouttons > div {
+    height: 40px;
+    width: 40px;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+#bouttonNotes {
+    background-image: url("/templates/aventures/images/notes.png");
+}
+
+/*
+    images
+*/
+.contenuPageAdv img {
+    max-width: 100%!important;
+    height: auto!important;
+    cursor: pointer;
+}
+.fenImgBig {
+    background-color: rgb(31, 31, 31);
+    cursor: pointer;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.fenImgBig img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}

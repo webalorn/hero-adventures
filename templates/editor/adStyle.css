@@ -1,0 +1,58 @@
+@font-face {
+	font-family: 'manuscrit';
+	src: url('/templates/site/font/manuscrit.otf');
+}
+body
+{
+	color: black;
+	background: white;
+}
+
+p.alinea {
+    text-indent: 3em;
+}
+p.alinea:first-letter {
+   font-size: 135%;
+}
+p.lettrine:first-letter {
+   font-size: 350%;
+	line-height: 1;
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+
+blockquote {
+	font-style: italic!important;
+	font-family: Georgia, Times, "Times New Roman", serif!important;
+	padding: 2px 0!important;
+	border: 0px solid #838383!important;
+	padding-left: 20px!important;
+	padding-right: 8px!important;
+	border-left-width: 3px!important;
+	margin: 15px!important;
+}
+mark, .marker {
+	background-color: rgb(229, 104, 104);
+}
+p.alinea {
+    text-indent: 3em;
+}
+p.alinea:first-letter {
+   font-size: 135%;
+}
+p.lettrine:first-letter {
+   font-size: 350%;
+	line-height: 1;
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+
+mark, .marker {
+	background-color: rgb(229, 104, 104)!important;
+}
+.manuscrit {
+    font-family: 'manuscrit';
+    font-size: 160%;
+}

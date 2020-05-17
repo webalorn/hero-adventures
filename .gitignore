@@ -1,2 +1,3 @@
 .htpasswd
 *.log
+.DS_Store

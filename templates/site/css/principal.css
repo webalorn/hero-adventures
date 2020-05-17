@@ -1,0 +1,238 @@
+@font-face {
+	font-family: 'title';
+	src: url('/templates/site/font/title.ttf');
+}
+body
+{
+	/*background: url("/templates/site/images/bg-header.jpg"), black;
+	background-position: top center;
+	background-repeat: no-repeat;*/
+	background: url("/templates/site/images/bg-header.jpg"), url("/templates/site/images/bg-footer.jpg"), black;
+	background-position: top center, bottom center;
+	background-repeat: no-repeat, no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+#main
+{
+	width: 100%;
+	max-width: 950px;
+	margin: auto;
+}
+a
+{
+	color: white;
+	text-decoration: underline;
+}
+/*
+	header 
+*/
+#header
+{
+	width:100%;
+	background-image: url("/templates/site/images/logo.png");
+	background-repeat: no-repeat;
+	background-size: 300px;
+	text-shadow: 2px 2px 0px black, -2px -2px 0px black;
+}
+#header h1 {
+	position:relative;
+	top:26px;
+	font-size: 4em;
+	color: #ba6100;
+	font-family: title;
+	text-align: center;
+}
+#header h2 {
+	position:relative;
+	top:26px;
+	font-size: 3em;
+	color: #ba6100;
+	font-family: title;
+	text-align: center;
+}
+/*
+	menu principal
+*/
+#mainMenu {
+	width: 100%;
+	background: url("/templates/site/images/bg-menu-gauche.png"), url("/templates/site/images/bg-menu-droite.png"), url("/templates/site/images/bg-menu-centre.png");
+	background-position: left top, right top, center top;
+	background-repeat: repeat-y, repeat-y, repeat;
+	background-size: auto 120px, auto 120px, auto 120px;
+}
+#mainMenu  li{
+	display: inline-block;
+	height: 120px;
+	line-height: 120px;
+}
+#mainMenu  li a{
+	font-size: 16px;
+	display: inline-block;
+	font-family: Volkhov;
+	font-weight: normal;
+	color: #311a0b;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 14px;
+	text-shadow: 0 1px 0 #e5c288;
+}
+#mainMenu li a:hover {
+	color: white;
+}
+/*
+	page
+*/
+#page
+{
+	margin: auto;
+	max-width: 680px;
+	padding: 10px 0;
+	font-family: Georgia;
+	font-size: 14px;
+	color: #9e8934;
+}
+#page a
+{
+	color: #E8CB56;
+	font-style: italic;
+}
+#page p
+{
+	text-align: justify;
+	line-height: 24px;
+	margin-bottom: 25px;
+}
+/*
+	footer
+*/
+footer
+{
+	/*background:transparent url("/templates/site/images/bg-footer.jpg");
+	background-position: bottom center;
+	background-repeat:no-repeat;*/
+	width:100%;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 80px;
+	color: white;
+}
+/*
+    effets de style classes
+*/
+p.alinea {
+    text-indent: 3em;
+}
+p.alinea:first-letter {
+   font-size: 135%;
+}
+p.lettrine:first-letter {
+   font-size: 350%;
+	line-height: 1;
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+
+mark, .marker {
+	background-color: rgb(171, 49, 49);
+}
+
+.greenAlert, .redAlert
+{
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    max-width: 500px;
+    color: black;
+}
+.greenAlert
+{
+    border: 2px solid rgb(97, 163, 97);
+    background: #C2E2A9;
+}
+.redAlert
+{
+    border: 2px solid #F28181;
+    background: #FFE9E9;
+}
+/*
+	bouttons
+*/
+input[type=button], input[type=submit] {
+  background: #d93434;
+  background-image: -webkit-linear-gradient(top, #d93434, #000000);
+  background-image: -moz-linear-gradient(top, #d93434, #000000);
+  background-image: -ms-linear-gradient(top, #d93434, #000000);
+  background-image: -o-linear-gradient(top, #d93434, #000000);
+  background-image: linear-gradient(to bottom, #d93434, #000000);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+ -webkit-box-shadow: 1px 1px 6px #ff0000;
+  -moz-box-shadow: 1px 1px 6px #ff0000;
+  box-shadow: 1px 1px 6px #ff0000;
+  font-family: Georgia;
+  color: #ebebeb;
+  font-size: 16px;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  margin: 3px;
+  cursor: pointer;
+  border: 0px;
+}
+
+input[type=button]:hover, input[type=submit]:hover {
+  background: #de3333;
+  background-image: -webkit-linear-gradient(top, #de3333, #750000);
+  background-image: -moz-linear-gradient(top, #de3333, #750000);
+  background-image: -ms-linear-gradient(top, #de3333, #750000);
+  background-image: -o-linear-gradient(top, #de3333, #750000);
+  background-image: linear-gradient(to bottom, #de3333, #750000);
+}
+
+/*
+	mettre une note
+*/
+#selectNote [type="radio"]:not(:checked),  
+#selectNote [type="radio"]:checked {  
+	position: absolute;  
+	left: -9999px;  
+}
+#selectNote [type="radio"]:not(:checked) + label,  
+#selectNote [type="radio"]:checked + label { 
+	cursor: pointer;
+	display: inline-block;
+	margin: 3px;
+	padding: 7px;
+	background-color: rgba(0, 0, 0, 0.96);
+	border-radius: 5px;
+	border: 2px solid #3A3A3A;
+}
+#selectNote [type="radio"]:checked + label {
+	border-color: #BFBFBF;
+}
+
+/*
+	elements "speciaux"
+*/
+blockquote {
+	font-style: italic;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	padding: 2px 0;
+	border: 0px solid #838383;
+	padding-left: 20px;
+	padding-right: 8px;
+	border-left-width: 3px;
+	margin: 15px;
+}
+ul.flamme li
+{
+    background-image: url(/templates/site/images/boule-feu.png);
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto 20px;
+    padding-left: 26px;
+}

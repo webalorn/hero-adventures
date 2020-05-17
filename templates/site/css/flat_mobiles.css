@@ -1,0 +1,72 @@
+@media all and (max-device-width: 300px)
+{
+    #page {
+        font-size: initial;
+        line-height: initial;
+    }
+
+    /*
+        header
+    */
+    #page > header {
+	    font-size: inherit;
+    }
+    body > header > div
+    {
+        width: 100%;
+        background-position: top left;
+        padding: 16px 4px;
+    }
+    body > header h1, body > header h2, body > header h3
+    {
+        margin: 0px;
+        margin-bottom: 8px;
+    }
+
+    /*
+        menu
+    */
+    #page > nav ul {
+        padding: 0 0;
+        display: none;
+    }
+    #page > nav li {
+        display: block;
+    }
+    #page > nav li a {
+        display: block;
+        padding: 20px 12px;
+    }
+    #page > nav li a:selected {
+        background-color: rgb(176, 176, 176);
+    }
+    
+    #menuShow {
+        display: block;
+        color: black;
+        padding: 12px 0;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    /*
+        contenu
+    */
+    #contenu {
+        width: auto;
+        max-width: initial;
+        padding: 20px 5px;
+        margin: 0px;
+        text-align: initial;
+        font-size: initial;
+    }
+
+    /*
+        footer
+    */
+    #page > footer {
+        background-color: rgb(136, 136, 136);
+        padding: 15px 15px;
+        text-align: center;
+    }
+}

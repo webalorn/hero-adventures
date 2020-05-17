@@ -1,0 +1,167 @@
+body
+{
+    background: #212121;
+    color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+#main
+{
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+    border-color: #510202;
+    border-style: ;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    background: #525252;
+    box-shadow: 0px 0px 20px rgb(92, 30, 30);
+    border-radius: 9px;
+    margin-bottom: 200px;
+}
+a
+{
+    text-decoration: none;
+}
+input[type=button], input[type=submit], button {
+  background: #adadad;
+  background-image: -webkit-linear-gradient(top, #adadad, #242424);
+  background-image: -moz-linear-gradient(top, #adadad, #242424);
+  background-image: -ms-linear-gradient(top, #adadad, #242424);
+  background-image: -o-linear-gradient(top, #adadad, #242424);
+  background-image: linear-gradient(to bottom, #adadad, #242424);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  text-shadow: 0px 0px 10px #4eb7c9;
+  -webkit-box-shadow: 0px 2px 5px #c46060;
+  -moz-box-shadow: 0px 2px 5px #c46060;
+  box-shadow: 0px 2px 5px #c46060;
+  font-family: Georgia;
+  color: #f7f7f7;
+  font-size: 14px;
+  padding: 5px 14px 5px 14px;
+  text-decoration: none;
+  border-size: 0px;
+  cursor: pointer;
+}
+
+input[type=button]:hover, input[type=submit]:hover, button:hover {
+  background: #808080;
+  background-image: -webkit-linear-gradient(top, #808080, #242424);
+  background-image: -moz-linear-gradient(top, #808080, #242424);
+  background-image: -ms-linear-gradient(top, #808080, #242424);
+  background-image: -o-linear-gradient(top, #808080, #242424);
+  background-image: linear-gradient(to bottom, #808080, #242424);
+  text-decoration: none;
+}
+
+/*
+    header
+*/
+#header h2 {
+    margin-left: 20px;
+    fon-size: 90%;
+}
+#header
+{
+    background-color: black;
+    background-image: url('/templates/site/images/logo.jpg');
+    background-size: auto 200px;
+    background-repeat: no-repeat;
+    min-height: 160px;
+    padding: 20px;
+    padding-left: 310px;
+    color: #FF5151;
+}
+
+/*
+    menu
+*/
+#mainMenu ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(#444444, rgb(45, 45, 45), #444444);
+}
+#mainMenu li
+{
+    display: inline-block;
+    margin: 0px;
+    padding: 15px;
+    color: rgb(255, 117, 117);
+}
+#mainMenu li:hover
+{
+    text-decoration: underline;
+    /*background: linear-gradient(rgb(45, 45, 45), #444444, rgb(45, 45, 45));*/
+    background: #444444;
+}
+
+/*
+    contenu
+*/
+#page
+{
+    position: relative;
+    padding: 15px;
+}
+#page a, #footer a
+{
+    text-decoration: underline;
+    color: #C7C7C7;
+}
+#page a:hover, #footer a:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*
+    pied de page
+*/
+#ligneSepFoter
+{
+    width: 90%;
+    margin: auto;
+}
+
+#footer
+{
+    padding: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+
+/*
+    effets de style classes
+*/
+p.alinea {
+    text-indent: 3em;
+}
+p.alinea:first-letter {
+   font-size: 135%;
+}
+
+.greenAlert, .redAlert
+{
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    max-width: 500px;
+    color: black;
+}
+.greenAlert
+{
+    border: 2px solid rgb(97, 163, 97);
+    background: #C2E2A9;
+}
+.redAlert
+{
+    border: 2px solid #F28181;
+    background: #FFE9E9;
+}

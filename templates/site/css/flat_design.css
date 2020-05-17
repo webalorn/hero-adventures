@@ -1,0 +1,32 @@
+@import url("flat_defaut.css");
+@import url("flat_mobiles.css");
+@import url("flat_elems_styles.css");
+@import url("flat_extra.css");
+
+@font-face {
+	font-family: 'nexa';
+	src: url('/templates/site/font/Nexa_Light.otf');
+}
+@font-face {
+	font-family: 'hemigraphy';
+	src: url('/templates/site/font/hemigraphy.otf');
+}
+@font-face {
+	font-family: 'manuscrit';
+	src: url('/templates/site/font/manuscrit.otf');
+}
+a {
+    position: relative;
+}
+.nbrDansMenu {
+    content: "5";
+    position: absolute;
+    background-color: rgb(255, 97, 97);
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    line-height: 30px;
+    bottom: -5px;
+    right: -5px;
+    border-radius: 15px;
+}

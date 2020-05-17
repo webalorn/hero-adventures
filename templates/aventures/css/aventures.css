@@ -1,0 +1,60 @@
+#header h3
+{
+	margin-left: 40px;
+    color: rgb(169, 180, 187);
+    margin-bottom: 0px;
+	font-size: 2em;
+	text-shadow: 2px 2px 0px black, -2px -2px 0px black, 4px 4px 7px red, -4px -4px 7px red;
+}
+#chargementImgBarre
+{
+	text-align: center;
+	padding: 10px;
+}
+
+.contenuPageAdv
+{
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-left: 2px solid rgb(86, 86, 86);
+}
+.suitePageAdv
+{
+	margin-top: 25px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-left: 2px solid rgb(24, 24, 24);
+	text-align: center;
+}
+.suitePageAdv input[type=button]
+{
+	margin: 5px;
+}
+p.paraMort
+{
+	font-style: italic;
+	font-weight: bold;
+	color: rgb(250, 163, 163);
+}
+p.paraFin
+{
+	font-style: italic;
+	font-weight: bold;
+	color: rgb(116, 255, 116);
+}
+.alreadyTermine
+{
+	text-align:  center;
+	color: rgb(116, 255, 116);
+	font-style: italic;
+	padding: 10px;
+}
+.nonConnecteMsg
+{
+	text-align:  center;
+	color: rgb(255, 91, 91);
+	padding: 10px;
+	font-weight: bold;
+}

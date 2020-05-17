@@ -1,0 +1,87 @@
+#selectNote [type="radio"]{  
+	display: none;
+}
+#selectNote [type="radio"] + label { 
+	cursor: pointer;
+	display: inline-block;
+	margin: 3px;
+	padding: 3px 10px;
+	color: white;
+	background-color: black;
+}
+#selectNote [type="radio"]:checked + label {
+	background-color: rgb(158, 158, 158);
+	color: black;
+}
+#selectNote [type="radio"] + label:hover {
+	background-color: rgb(111, 111, 111);
+}
+
+p.alinea {
+    text-indent: 3em;
+}
+p.alinea:first-letter {
+   font-size: 135%;
+}
+p.lettrine:first-letter {
+   font-size: 350%;
+	line-height: 1;
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+
+mark, .marker {
+	background-color: rgb(229, 104, 104);
+}
+
+.manuscrit {
+    font-family: 'manuscrit';
+    font-size: 160%;
+}
+
+/*
+    onglets
+*/
+.onglets > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    border-bottom: 2px solid rgb(166, 166, 166);
+}
+.onglets > ul > li {
+    display: inline-block;
+    padding: 5px 15px;
+    border: 2px solid rgb(166, 166, 166);
+    border-bottom-width: 0px;
+    cursor: pointer;
+}
+.onglets > div {
+    padding: 15px 0px;
+    display: none;
+}
+
+/*
+    boites-fenetres
+*/
+.cacheBodyFen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    overflow: auto;
+    display: none;
+}
+.fenetreBoxMoyen > footer {
+    padding: 15px;
+    text-align: center;
+}
+.fenetreBoxMoyen {
+    max-width: 700px;
+    background: white;
+    color: black;
+    padding: 30px;
+    margin: auto;
+}
